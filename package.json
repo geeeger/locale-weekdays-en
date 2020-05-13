@@ -1,0 +1,39 @@
+{
+  "name": "@geeeger/locale-weekdays-en",
+  "version": "1.0.0",
+  "description": "weekdays map",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geeeger/locale-weekdays-en.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "locale",
+    "weekdays"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "bugs": {
+    "url": "https://github.com/geeeger/locale-weekdays-en/issues"
+  },
+  "homepage": "https://github.com/geeeger/locale-weekdays-en#readme",
+  "author": "geeeger <lph1988520@sina.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.2"
+  }
+}
