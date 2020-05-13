@@ -1,14 +1,33 @@
-declare type ISO31661Map = {
-    [key: string]: {
-        en: string;
-        es: string;
-        zh: string;
-        locale: string;
-        code: number;
-    };
+declare enum WeekdaysShort {
+    Sun = 0,
+    Mon = 1,
+    Tue = 2,
+    Wed = 3,
+    Thu = 4,
+    Fri = 5,
+    Sat = 6
 }
-
-declare const iso31661map: ISO31661Map
-
-export default iso31661map;
-export {};
+declare enum WeekdaysMin {
+    Su = 0,
+    Mo = 1,
+    Tu = 2,
+    We = 3,
+    Th = 4,
+    Fr = 5,
+    Sa = 6
+}
+declare enum Weekdays {
+    Sunday = 0,
+    Monday = 1,
+    Tuesday = 2,
+    Wednesday = 3,
+    Thursday = 4,
+    Friday = 5,
+    Saturday = 6
+}
+declare const _default: {
+    short: typeof WeekdaysShort;
+    min: typeof WeekdaysMin;
+    default: typeof Weekdays;
+};
+export default _default;
